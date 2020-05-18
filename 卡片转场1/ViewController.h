@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CardScrollView.h"
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) CardScrollView *cardScrollView;
+
+//记录当前点击的IndexPath
+@property (nonatomic, assign) NSInteger currentIndex;
 
 @end
 

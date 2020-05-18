@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "AnotherViewController.h"
 
-@interface ViewController ()
+@interface ViewController () <CardScrollViewDelegate, UINavigationControllerDelegate>
 
 @end
 
@@ -16,14 +17,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self.navigationController.navigationBar setHidden:YES];
+    
+    self.cardScrollView = [[CardScrollView alloc] initWithFrame:self.view.bounds];
+    self.cardScrollView.delegate = self;
+    [self.view addSubview:self.cardScrollView];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)cardScrollViewDelegateDidSelectAtIndex:(NSInteger)index
+{
+    self.currentIndex = index;
+    
+    AnotherViewController *vc = [[AnotherViewController alloc] init];
+    vc.index = index;
+    self.navigationController.delegate = vc;
+    [self.navigationController pushViewController:vc animated:YES];
 }
-
 
 @end

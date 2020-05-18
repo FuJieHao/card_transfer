@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043490BA2053D69900C682EB /* NSArray+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 043490A72053D69900C682EB /* NSArray+CZAddition.m */; };
+		043490BB2053D69900C682EB /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 043490A92053D69900C682EB /* NSArray+Log.m */; };
+		043490BC2053D69900C682EB /* NSAttributedString+CZAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = 043490AB2053D69900C682EB /* NSAttributedString+CZAdditon.m */; };
+		043490BD2053D69900C682EB /* NSObject+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 043490AD2053D69900C682EB /* NSObject+CZAddition.m */; };
+		043490BE2053D69900C682EB /* UIButton+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 043490AF2053D69900C682EB /* UIButton+CZAddition.m */; };
+		043490BF2053D69900C682EB /* UIColor+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 043490B12053D69900C682EB /* UIColor+CZAddition.m */; };
+		043490C02053D69900C682EB /* UILabel+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 043490B32053D69900C682EB /* UILabel+CZAddition.m */; };
+		043490C12053D69900C682EB /* UIScreen+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 043490B52053D69900C682EB /* UIScreen+CZAddition.m */; };
+		043490C22053D69900C682EB /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 043490B72053D69900C682EB /* UIView+CZAddition.m */; };
+		043490C32053D69900C682EB /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 043490B92053D69900C682EB /* UIViewController+CZAddition.m */; };
+		043490C62053D75B00C682EB /* CardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 043490C52053D75B00C682EB /* CardCollectionViewCell.m */; };
 		04904C9A201B45EA00D1DE52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04904C99201B45EA00D1DE52 /* main.m */; };
 		04904C9D201B45EA00D1DE52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04904C9C201B45EA00D1DE52 /* AppDelegate.m */; };
 		04904CA0201B45EA00D1DE52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04904C9F201B45EA00D1DE52 /* ViewController.m */; };
@@ -15,6 +26,17 @@
 		04904CA8201B45EA00D1DE52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04904CA6201B45EA00D1DE52 /* LaunchScreen.storyboard */; };
 		04904CB3201B45EB00D1DE52 /* ____1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04904CB2201B45EB00D1DE52 /* ____1Tests.m */; };
 		04904CBE201B45EB00D1DE52 /* ____1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04904CBD201B45EB00D1DE52 /* ____1UITests.m */; };
+		04904CCE201B468300D1DE52 /* CardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04904CCD201B468300D1DE52 /* CardModel.m */; };
+		04904CD4201B4C3600D1DE52 /* CardScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04904CD3201B4C3600D1DE52 /* CardScrollView.m */; };
+		04904CDB201B579E00D1DE52 /* CardFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04904CDA201B579E00D1DE52 /* CardFlowLayout.m */; };
+		04B5F76A2056548E00C73745 /* CardStartsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B5F7692056548E00C73745 /* CardStartsView.m */; };
+		04B5F76D205654A200C73745 /* CardUsersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B5F76C205654A200C73745 /* CardUsersView.m */; };
+		04B5F771205670AF00C73745 /* UIImage+CircleExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B5F770205670AF00C73745 /* UIImage+CircleExtension.m */; };
+		04B5F774205794C900C73745 /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B5F773205794C900C73745 /* AnotherViewController.m */; };
+		04B5F7772057A2CA00C73745 /* CardTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B5F7762057A2CA00C73745 /* CardTransition.m */; };
+		04B5F77D2058C4E300C73745 /* CardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B5F77C2058C4E300C73745 /* CardTableViewCell.m */; };
+		04B5F7812059200B00C73745 /* CardSimpleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B5F7802059200B00C73745 /* CardSimpleModel.m */; };
+		6B1E4F17E01CF46C564EB267 /* libPods-卡片转场1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C69DF4A5AFFC269ED12C64BF /* libPods-卡片转场1.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +57,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043490A52053D69900C682EB /* CZAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZAdditions.h; sourceTree = "<group>"; };
+		043490A62053D69900C682EB /* NSArray+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CZAddition.h"; sourceTree = "<group>"; };
+		043490A72053D69900C682EB /* NSArray+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CZAddition.m"; sourceTree = "<group>"; };
+		043490A82053D69900C682EB /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		043490A92053D69900C682EB /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		043490AA2053D69900C682EB /* NSAttributedString+CZAdditon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+CZAdditon.h"; sourceTree = "<group>"; };
+		043490AB2053D69900C682EB /* NSAttributedString+CZAdditon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+CZAdditon.m"; sourceTree = "<group>"; };
+		043490AC2053D69900C682EB /* NSObject+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CZAddition.h"; sourceTree = "<group>"; };
+		043490AD2053D69900C682EB /* NSObject+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CZAddition.m"; sourceTree = "<group>"; };
+		043490AE2053D69900C682EB /* UIButton+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CZAddition.h"; sourceTree = "<group>"; };
+		043490AF2053D69900C682EB /* UIButton+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CZAddition.m"; sourceTree = "<group>"; };
+		043490B02053D69900C682EB /* UIColor+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZAddition.h"; sourceTree = "<group>"; };
+		043490B12053D69900C682EB /* UIColor+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZAddition.m"; sourceTree = "<group>"; };
+		043490B22053D69900C682EB /* UILabel+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CZAddition.h"; sourceTree = "<group>"; };
+		043490B32053D69900C682EB /* UILabel+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CZAddition.m"; sourceTree = "<group>"; };
+		043490B42053D69900C682EB /* UIScreen+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+CZAddition.h"; sourceTree = "<group>"; };
+		043490B52053D69900C682EB /* UIScreen+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+CZAddition.m"; sourceTree = "<group>"; };
+		043490B62053D69900C682EB /* UIView+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CZAddition.h"; sourceTree = "<group>"; };
+		043490B72053D69900C682EB /* UIView+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZAddition.m"; sourceTree = "<group>"; };
+		043490B82053D69900C682EB /* UIViewController+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CZAddition.h"; sourceTree = "<group>"; };
+		043490B92053D69900C682EB /* UIViewController+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CZAddition.m"; sourceTree = "<group>"; };
+		043490C42053D6F100C682EB /* CardScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardScrollView.h; sourceTree = "<group>"; };
+		043490C52053D75B00C682EB /* CardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCollectionViewCell.m; sourceTree = "<group>"; };
+		046751BF201ED36F000041DC /* Card-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Card-PrefixHeader.pch"; sourceTree = "<group>"; };
 		04904C95201B45EA00D1DE52 /* 卡片转场1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "卡片转场1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04904C99201B45EA00D1DE52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04904C9B201B45EA00D1DE52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +97,29 @@
 		04904CB9201B45EB00D1DE52 /* 卡片转场1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "卡片转场1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04904CBD201B45EB00D1DE52 /* ____1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____1UITests.m"; sourceTree = "<group>"; };
 		04904CBF201B45EB00D1DE52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04904CCC201B468300D1DE52 /* CardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardModel.h; sourceTree = "<group>"; };
+		04904CCD201B468300D1DE52 /* CardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardModel.m; sourceTree = "<group>"; };
+		04904CD3201B4C3600D1DE52 /* CardScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardScrollView.m; sourceTree = "<group>"; };
+		04904CD6201B540400D1DE52 /* CardCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCollectionViewCell.h; sourceTree = "<group>"; };
+		04904CD9201B579E00D1DE52 /* CardFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardFlowLayout.h; sourceTree = "<group>"; };
+		04904CDA201B579E00D1DE52 /* CardFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardFlowLayout.m; sourceTree = "<group>"; };
+		04B5F7682056548E00C73745 /* CardStartsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardStartsView.h; sourceTree = "<group>"; };
+		04B5F7692056548E00C73745 /* CardStartsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardStartsView.m; sourceTree = "<group>"; };
+		04B5F76B205654A200C73745 /* CardUsersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardUsersView.h; sourceTree = "<group>"; };
+		04B5F76C205654A200C73745 /* CardUsersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardUsersView.m; sourceTree = "<group>"; };
+		04B5F76F205670AF00C73745 /* UIImage+CircleExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CircleExtension.h"; sourceTree = "<group>"; };
+		04B5F770205670AF00C73745 /* UIImage+CircleExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CircleExtension.m"; sourceTree = "<group>"; };
+		04B5F772205794C900C73745 /* AnotherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherViewController.h; sourceTree = "<group>"; };
+		04B5F773205794C900C73745 /* AnotherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherViewController.m; sourceTree = "<group>"; };
+		04B5F7752057A2CA00C73745 /* CardTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardTransition.h; sourceTree = "<group>"; };
+		04B5F7762057A2CA00C73745 /* CardTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardTransition.m; sourceTree = "<group>"; };
+		04B5F77B2058C4E300C73745 /* CardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardTableViewCell.h; sourceTree = "<group>"; };
+		04B5F77C2058C4E300C73745 /* CardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardTableViewCell.m; sourceTree = "<group>"; };
+		04B5F77F2059200B00C73745 /* CardSimpleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardSimpleModel.h; sourceTree = "<group>"; };
+		04B5F7802059200B00C73745 /* CardSimpleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardSimpleModel.m; sourceTree = "<group>"; };
+		C69DF4A5AFFC269ED12C64BF /* libPods-卡片转场1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-卡片转场1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3BCC518A295F287860EAD1 /* Pods-卡片转场1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-卡片转场1.release.xcconfig"; path = "Pods/Target Support Files/Pods-卡片转场1/Pods-卡片转场1.release.xcconfig"; sourceTree = "<group>"; };
+		F0D8B0D0EE360C586C6DFFE0 /* Pods-卡片转场1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-卡片转场1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-卡片转场1/Pods-卡片转场1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1E4F17E01CF46C564EB267 /* libPods-卡片转场1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +148,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043490992053D59000C682EB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				043490A42053D68000C682EB /* Additions */,
+				046751BF201ED36F000041DC /* Card-PrefixHeader.pch */,
+				04B5F76F205670AF00C73745 /* UIImage+CircleExtension.h */,
+				04B5F770205670AF00C73745 /* UIImage+CircleExtension.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		043490A42053D68000C682EB /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				043490A52053D69900C682EB /* CZAdditions.h */,
+				043490A62053D69900C682EB /* NSArray+CZAddition.h */,
+				043490A72053D69900C682EB /* NSArray+CZAddition.m */,
+				043490A82053D69900C682EB /* NSArray+Log.h */,
+				043490A92053D69900C682EB /* NSArray+Log.m */,
+				043490AA2053D69900C682EB /* NSAttributedString+CZAdditon.h */,
+				043490AB2053D69900C682EB /* NSAttributedString+CZAdditon.m */,
+				043490AC2053D69900C682EB /* NSObject+CZAddition.h */,
+				043490AD2053D69900C682EB /* NSObject+CZAddition.m */,
+				043490AE2053D69900C682EB /* UIButton+CZAddition.h */,
+				043490AF2053D69900C682EB /* UIButton+CZAddition.m */,
+				043490B02053D69900C682EB /* UIColor+CZAddition.h */,
+				043490B12053D69900C682EB /* UIColor+CZAddition.m */,
+				043490B22053D69900C682EB /* UILabel+CZAddition.h */,
+				043490B32053D69900C682EB /* UILabel+CZAddition.m */,
+				043490B42053D69900C682EB /* UIScreen+CZAddition.h */,
+				043490B52053D69900C682EB /* UIScreen+CZAddition.m */,
+				043490B62053D69900C682EB /* UIView+CZAddition.h */,
+				043490B72053D69900C682EB /* UIView+CZAddition.m */,
+				043490B82053D69900C682EB /* UIViewController+CZAddition.h */,
+				043490B92053D69900C682EB /* UIViewController+CZAddition.m */,
+			);
+			name = Additions;
+			sourceTree = "<group>";
+		};
 		04904C8C201B45EA00D1DE52 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +194,8 @@
 				04904CB1201B45EB00D1DE52 /* 卡片转场1Tests */,
 				04904CBC201B45EB00D1DE52 /* 卡片转场1UITests */,
 				04904C96201B45EA00D1DE52 /* Products */,
+				74EB0FA4330A1ABBE8A1372F /* Pods */,
+				CF9CA5D2FD184F33576E951E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +212,10 @@
 		04904C97201B45EA00D1DE52 /* 卡片转场1 */ = {
 			isa = PBXGroup;
 			children = (
-				04904C9B201B45EA00D1DE52 /* AppDelegate.h */,
-				04904C9C201B45EA00D1DE52 /* AppDelegate.m */,
-				04904C9E201B45EA00D1DE52 /* ViewController.h */,
-				04904C9F201B45EA00D1DE52 /* ViewController.m */,
-				04904CA1201B45EA00D1DE52 /* Main.storyboard */,
-				04904CA4201B45EA00D1DE52 /* Assets.xcassets */,
-				04904CA6201B45EA00D1DE52 /* LaunchScreen.storyboard */,
-				04904CA9201B45EA00D1DE52 /* Info.plist */,
+				04B5F782205B5A7500C73745 /* Others */,
+				04B5F7782057A2DE00C73745 /* AnotherConteroller */,
+				043490992053D59000C682EB /* Tools */,
+				04904CCB201B465900D1DE52 /* CardScrollerView */,
 				04904C98201B45EA00D1DE52 /* Supporting Files */,
 			);
 			path = "卡片转场1";
@@ -117,6 +224,8 @@
 		04904C98201B45EA00D1DE52 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04904CA4201B45EA00D1DE52 /* Assets.xcassets */,
+				04904CA9201B45EA00D1DE52 /* Info.plist */,
 				04904C99201B45EA00D1DE52 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +249,118 @@
 			path = "卡片转场1UITests";
 			sourceTree = "<group>";
 		};
+		04904CCB201B465900D1DE52 /* CardScrollerView */ = {
+			isa = PBXGroup;
+			children = (
+				04904CD9201B579E00D1DE52 /* CardFlowLayout.h */,
+				04904CDA201B579E00D1DE52 /* CardFlowLayout.m */,
+				04904CD5201B53B500D1DE52 /* Controller */,
+				04904CD1201B4B4A00D1DE52 /* View */,
+				04904CD0201B4B3D00D1DE52 /* Model */,
+			);
+			name = CardScrollerView;
+			sourceTree = "<group>";
+		};
+		04904CD0201B4B3D00D1DE52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04904CCC201B468300D1DE52 /* CardModel.h */,
+				04904CCD201B468300D1DE52 /* CardModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		04904CD1201B4B4A00D1DE52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04904CD6201B540400D1DE52 /* CardCollectionViewCell.h */,
+				043490C52053D75B00C682EB /* CardCollectionViewCell.m */,
+				04B5F7682056548E00C73745 /* CardStartsView.h */,
+				04B5F7692056548E00C73745 /* CardStartsView.m */,
+				04B5F76B205654A200C73745 /* CardUsersView.h */,
+				04B5F76C205654A200C73745 /* CardUsersView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		04904CD5201B53B500D1DE52 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				043490C42053D6F100C682EB /* CardScrollView.h */,
+				04904CD3201B4C3600D1DE52 /* CardScrollView.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		04B5F7782057A2DE00C73745 /* AnotherConteroller */ = {
+			isa = PBXGroup;
+			children = (
+				04B5F7752057A2CA00C73745 /* CardTransition.h */,
+				04B5F7762057A2CA00C73745 /* CardTransition.m */,
+				04B5F77E20591FC900C73745 /* Model */,
+				04B5F77A2057A31000C73745 /* View */,
+				04B5F7792057A2FB00C73745 /* Controller */,
+			);
+			name = AnotherConteroller;
+			sourceTree = "<group>";
+		};
+		04B5F7792057A2FB00C73745 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04B5F772205794C900C73745 /* AnotherViewController.h */,
+				04B5F773205794C900C73745 /* AnotherViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		04B5F77A2057A31000C73745 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04B5F77B2058C4E300C73745 /* CardTableViewCell.h */,
+				04B5F77C2058C4E300C73745 /* CardTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		04B5F77E20591FC900C73745 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04B5F77F2059200B00C73745 /* CardSimpleModel.h */,
+				04B5F7802059200B00C73745 /* CardSimpleModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		04B5F782205B5A7500C73745 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				04904C9B201B45EA00D1DE52 /* AppDelegate.h */,
+				04904C9C201B45EA00D1DE52 /* AppDelegate.m */,
+				04904C9E201B45EA00D1DE52 /* ViewController.h */,
+				04904C9F201B45EA00D1DE52 /* ViewController.m */,
+				04904CA1201B45EA00D1DE52 /* Main.storyboard */,
+				04904CA6201B45EA00D1DE52 /* LaunchScreen.storyboard */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		74EB0FA4330A1ABBE8A1372F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0D8B0D0EE360C586C6DFFE0 /* Pods-卡片转场1.debug.xcconfig */,
+				CA3BCC518A295F287860EAD1 /* Pods-卡片转场1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF9CA5D2FD184F33576E951E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C69DF4A5AFFC269ED12C64BF /* libPods-卡片转场1.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +368,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04904CC2201B45EB00D1DE52 /* Build configuration list for PBXNativeTarget "卡片转场1" */;
 			buildPhases = (
+				5D3FB892FDE0FC2FB62D6B08 /* [CP] Check Pods Manifest.lock */,
 				04904C91201B45EA00D1DE52 /* Sources */,
 				04904C92201B45EA00D1DE52 /* Frameworks */,
 				04904C93201B45EA00D1DE52 /* Resources */,
+				957A9BAD6B609FEE4240BCBE /* [CP] Embed Pods Frameworks */,
+				9861DAE48F47284414687540 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,14 +492,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D3FB892FDE0FC2FB62D6B08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		957A9BAD6B609FEE4240BCBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-卡片转场1/Pods-卡片转场1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9861DAE48F47284414687540 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-卡片转场1/Pods-卡片转场1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04904C91201B45EA00D1DE52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				04904CA0201B45EA00D1DE52 /* ViewController.m in Sources */,
+				04904CCE201B468300D1DE52 /* CardModel.m in Sources */,
+				04B5F7772057A2CA00C73745 /* CardTransition.m in Sources */,
 				04904C9D201B45EA00D1DE52 /* AppDelegate.m in Sources */,
+				04904CD4201B4C3600D1DE52 /* CardScrollView.m in Sources */,
+				04B5F77D2058C4E300C73745 /* CardTableViewCell.m in Sources */,
+				043490C12053D69900C682EB /* UIScreen+CZAddition.m in Sources */,
+				04B5F76A2056548E00C73745 /* CardStartsView.m in Sources */,
+				043490C02053D69900C682EB /* UILabel+CZAddition.m in Sources */,
+				04B5F771205670AF00C73745 /* UIImage+CircleExtension.m in Sources */,
+				043490BE2053D69900C682EB /* UIButton+CZAddition.m in Sources */,
+				043490C62053D75B00C682EB /* CardCollectionViewCell.m in Sources */,
 				04904C9A201B45EA00D1DE52 /* main.m in Sources */,
+				043490BC2053D69900C682EB /* NSAttributedString+CZAdditon.m in Sources */,
+				043490C32053D69900C682EB /* UIViewController+CZAddition.m in Sources */,
+				04B5F76D205654A200C73745 /* CardUsersView.m in Sources */,
+				043490C22053D69900C682EB /* UIView+CZAddition.m in Sources */,
+				04B5F7812059200B00C73745 /* CardSimpleModel.m in Sources */,
+				043490BD2053D69900C682EB /* NSObject+CZAddition.m in Sources */,
+				043490BF2053D69900C682EB /* UIColor+CZAddition.m in Sources */,
+				043490BB2053D69900C682EB /* NSArray+Log.m in Sources */,
+				043490BA2053D69900C682EB /* NSArray+CZAddition.m in Sources */,
+				04B5F774205794C900C73745 /* AnotherViewController.m in Sources */,
+				04904CDB201B579E00D1DE52 /* CardFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +641,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -396,6 +690,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -422,8 +717,11 @@
 		};
 		04904CC3201B45EB00D1DE52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0D8B0D0EE360C586C6DFFE0 /* Pods-卡片转场1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "卡片转场1/Card-PrefixHeader.pch";
 				INFOPLIST_FILE = "卡片转场1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fujiehao.----1";
@@ -433,8 +731,11 @@
 		};
 		04904CC4201B45EB00D1DE52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA3BCC518A295F287860EAD1 /* Pods-卡片转场1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "卡片转场1/Card-PrefixHeader.pch";
 				INFOPLIST_FILE = "卡片转场1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fujiehao.----1";
@@ -507,6 +808,7 @@
 				04904CC4201B45EB00D1DE52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04904CC5201B45EB00D1DE52 /* Build configuration list for PBXNativeTarget "卡片转场1Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +817,7 @@
 				04904CC7201B45EB00D1DE52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04904CC8201B45EB00D1DE52 /* Build configuration list for PBXNativeTarget "卡片转场1UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +826,7 @@
 				04904CCA201B45EB00D1DE52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
